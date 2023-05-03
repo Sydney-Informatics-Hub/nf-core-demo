@@ -28,7 +28,6 @@ process MULTIQC {
     """
     multiqc \\
         --force \\
-        --title "$params.multiqc_title" \\
         $args \\
         $config \\
         $extra_config \\
